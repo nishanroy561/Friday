@@ -87,6 +87,13 @@ model = OllamaLLM(model=model_name)
 
 Replace `"llama2-7b"` with another model size, such as `13b` or `30b`, as per your requirements.
 
+## .gitignore for Virtual Environment
+This project includes a `.gitignore` file that excludes the `venv` directory to prevent it from being tracked by Git. If you wish to delete the `.gitignore` file for any reason, you can do so by running:
+
+```bash
+rm .gitignore
+```
+
 ## More Guidance
 - For detailed instructions on Ollama and LLaMA, check the [Ollama GitHub repository](https://github.com/ollama/ollama).
 - Watch this [YouTube tutorial](https://www.youtube.com/watch?v=d0o89z134CQ) for step-by-step guidance on using Ollama LLaMA models.
